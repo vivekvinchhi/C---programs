@@ -29,8 +29,10 @@
     "**/.vscode/**"
   ],
   "files.associations": {
+    "*.embeddedhtml": "html",
     "iostream": "cpp",
-    "ostream": "cpp"
+    "ostream": "cpp",
+    "iomanip": "cpp"
   },
   "C_Cpp_Runner.msvcWarnings": [
     "/W4",

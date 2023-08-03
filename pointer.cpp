@@ -18,13 +18,16 @@ int main()
     cout<<"vlaue of z : "<<*s<<endl;
     cout<<"Adderess of z : "<<s<<endl;
 
- int g=5,h=7;
+    int g=5,h=7;
     int *i=&g ,*j=&h;
     *i=*i + *j;
     *j=*i - *j;
     *i=*i - *j;
     cout<<g<<endl;
     cout<<h<<endl;
+    
+    i=i+1;
+    cout<<i<<endl;
 
 
     return 0;

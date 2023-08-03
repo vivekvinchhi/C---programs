@@ -11,18 +11,33 @@ int main()
     int n;
     cin>>n;
 
-for (int i = n; i>0; i--)
-{
-    for (int k = n; k >=i; k--)
-    {
-        cout<<" ";
-    }
+// for (int i = n; i>0; i--)
+// {
+//     for (int k = n; k >=i; k--)
+//     {
+//         cout<<" ";
+//     }
     
-    for (int j = 1;j<=i;j++)
+//     for (int j = 1;j<=i;j++)
+//     {
+//         cout<<"*";
+//     }
+//     cout<<endl;
+//     }
+    
+    for (int i = 1; i <=n; i++)
     {
-        cout<<"*";
-    }
-    cout<<endl;
+        for (int j = 1; j <= i; j++)
+        {
+            cout<<" ";
+        }
+        for (int k=n;k>=i;k--)
+        {
+            cout<<"*";
+        }
+        
+        
+        cout<<endl;
     }
     
 

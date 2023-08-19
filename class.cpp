@@ -4,12 +4,14 @@ using namespace std;
 
 class vivek{
 
+    
     int num;
     string name;
     public:
     char surname;
+    static int s;
 
-    // int and char can not be assecced oput of this class so we make a getter and settr method
+    // int and char can not be assecced out of this class so we make a getter and settr method
 
     int getnum(){
         return num;
@@ -29,7 +31,12 @@ class vivek{
 
 };
 
+int vivek::s=5;
+
 int main(){
+
+    cout<<vivek::s<<endl;
+
 
     vivek obj1;
     // cout<<obj1.num<<end;   --->this will give an error because private can't be accessed 

@@ -35,6 +35,6 @@ int main()
     cin>>no;
     fact=factorial(no);
     cout<<"factorial of given "<<no<<" is : "<<fact<<endl;
-    fac();
+    fac(5);
     return 0;
 }

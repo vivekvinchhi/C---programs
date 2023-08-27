@@ -15,15 +15,15 @@ int main()
 
     for (int i = 1; i <=n ;i++)
     {
-        for (int j=1 ; j<=n-i+1;j++)
-        {
-            cout<<j;
-        }
-        for (int k = 2; k <=i; k++)
-        {
-            cout<<"*";
-            cout<<"*";
-        }
+        // for (int j=1 ; j<=n-i+1;j++)
+        // {
+        //     cout<<j;
+        // }
+        // for (int k = 2; k <=i; k++)
+        // {
+        //     cout<<"*";
+        //     cout<<"*";
+        // }
         for (int m = n-i+1; m >= 1; m--)
         {
             cout<<m;

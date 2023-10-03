@@ -16,7 +16,7 @@ for (int i = 1; i <=n; i++)
 {
     // printing space
     int space=n-i;
-    for (int k=0 ; k<=space ; k++)
+    for (int k=n ; k>=i ; k--)
     {
         cout<<" ";
     }
